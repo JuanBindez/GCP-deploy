@@ -18,21 +18,23 @@ https://www.youtube.com/watch?v=7-s5ugThckY
 
     tar -xf google-cloud-cli-473.0.0-linux-x86_64.tar.gz
 
-### Add the gcloud CLI to the path. Run the installation script in the root of the folder you extracted using the following command: 
+### 1: 
 
-    ./google-cloud-sdk/install.sh
+    cd google-cloud-sdk/
 
-### This can also be done non-interactively (e.g. with a script) and by providing preferences as flags. To see the available flags, run
+    
 
-    ./google-cloud-sdk/install.sh --help
+### 2
 
-###  To initialize the gcloud CLI, run the gcloud init command: 
+    ./install.sh
+
+### 3 open another terminal: 
 
     ./google-cloud-sdk/bin/gcloud init
 
 ----------
 
-### How to initialize the gcloud CLI
+### 4 How to initialize the gcloud CLI in project path
 
     gcloud init
 
