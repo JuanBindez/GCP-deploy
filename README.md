@@ -3,38 +3,36 @@ deploy Google Cloud
 
 ## gcloud init
 
-### run this will initate the gcloudcli to ask you for authentication details and configuration
-
+### tutorial
 
 https://cloud.google.com/sdk/docs/install-sdk?hl=pt-br
 
 https://www.youtube.com/watch?v=7-s5ugThckY
 
 
-### Para fazer o download do arquivo do Linux, execute o seguinte comando:
+### To download the Linux file, run the following command:
 
     curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-473.0.0-linux-x86_64.tar.gz
 
-### Para extrair o conteúdo do arquivo para o sistema de arquivos (preferencialmente para o diretório principal), execute o seguinte comando: 
+### To extract the contents of the file to the file system (preferably to the main directory), run the following command: 
 
     tar -xf google-cloud-cli-473.0.0-linux-x86_64.tar.gz
 
-### Adicione a CLI gcloud ao caminho. Execute o script de instalação na raiz da pasta que você extraiu usando o comando a seguir: 
+### Add the gcloud CLI to the path. Run the installation script in the root of the folder you extracted using the following command: 
 
     ./google-cloud-sdk/install.sh
 
-### Isso também pode ser feito de maneira não interativa (por exemplo, com um script) e fornecendo preferências como sinalizações. Para ver as flags disponíveis, execute::
+### This can also be done non-interactively (e.g. with a script) and by providing preferences as flags. To see the available flags, run
 
     ./google-cloud-sdk/install.sh --help
 
-###   Para inicializar a CLI gcloud, execute o comando gcloud init: 
+###  To initialize the gcloud CLI, run the gcloud init command: 
 
     ./google-cloud-sdk/bin/gcloud init
 
 ----------
 
-
-### Como inicializar a CLI gcloud
+### How to initialize the gcloud CLI
 
     gcloud init
 
