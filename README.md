@@ -1,7 +1,7 @@
 # GCP-deploy
-deploy Google Cloud
 
-## gcloud init
+## deploy Google Cloud
+
 
 ### tutorial
 
